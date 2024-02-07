@@ -1,0 +1,18 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.presentation {
+  max-width: 100%;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.filmPhoto {
+  height: 40vw;
+}
+
+
